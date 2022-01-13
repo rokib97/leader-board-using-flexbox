@@ -1,0 +1,130 @@
+/* fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+/* Utilities  */
+body {
+  background-color: #f3f1ff;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  width: 870px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-bottom: 21px;
+  padding-bottom: 21px;
+}
+
+/* top player section styles  */
+.top-players {
+  margin-bottom: 30px;
+}
+.section-title {
+  color: #562eff;
+  font-size: 24px;
+  margin-left: 33px;
+}
+.players {
+  display: flex;
+  margin-left: 33px;
+  gap: 95px;
+  margin-bottom: 29px;
+  /* justify-content: space-evenly; */
+}
+.player {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.players img {
+  width: 56px;
+  height: 56px;
+}
+.player-name {
+  font-size: 18px;
+  color: #000000;
+}
+hr {
+  margin: 0 30px;
+}
+
+/* top blogs styles here  */
+.blogs {
+  display: flex;
+}
+.photo img {
+  width: 177px;
+  height: 117px;
+  padding-top: 15px;
+}
+.blog {
+  display: flex;
+  margin-left: 30px;
+  /* padding-bottom: 10px; */
+  /* margin-bottom: 20px; */
+}
+.blog-title {
+  font-size: 20px;
+  color: #000000;
+}
+.blog-details {
+  margin-left: 16px;
+  /* margin-bottom: 15px; */
+}
+.author-name {
+  font-size: 16px;
+  color: #9f9f9f;
+}
+.author-name a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #562eff;
+}
+/* latest courses styles start here  */
+.course {
+  margin-left: 30px;
+  width: 252.42px;
+  height: 269.79px;
+  border-radius: 5px;
+}
+.course-banner img {
+  width: 224px;
+  height: 104px;
+}
+.course-title {
+  font-size: 20.0336px;
+  color: #1e1e1e;
+}
+.courses {
+  display: flex;
+}
+.course-author {
+  font-size: 14.6913px;
+  color: #ed6b4f;
+}
+.course-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fa-star.filled {
+  color: #ffc014;
+  font-size: 12px;
+}
+.fa-star.empty {
+  color: #aeaeae;
+  font-size: 12px;
+}
+.course-duration {
+  background-color: #ffe4e8;
+  border-radius: 14.6913px;
+  font-size: 14.6913px;
+  color: #ff4a60;
+}
